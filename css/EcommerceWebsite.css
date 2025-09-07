@@ -365,6 +365,28 @@ footer p{
     color: #f2f2f2;
     text-align: center;
 }
+
+
+
+@media screen and (max-width:1114px) {
+    .iconarea{
+    left: 20px;
+}
+.section1 img{
+    height: 225px;
+}
+.productsection{
+    height: 70%;
+}
+
+.sectionbutton h1,h2{
+    font-size: 2.2rem;
+}
+}
+
+
+
+
 @media screen and (max-width:768px) {
     .logo{
      left: 40px;
@@ -510,9 +532,6 @@ footer p{
 }
 
 
-@media screen and (max-width:992px) {
-    
-}
 
 
 
