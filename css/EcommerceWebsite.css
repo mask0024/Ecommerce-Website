@@ -365,7 +365,7 @@ footer p{
     color: #f2f2f2;
     text-align: center;
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:768px) {
     .logo{
      left: 40px;
     
