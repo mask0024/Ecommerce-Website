@@ -312,7 +312,7 @@ span{
     border-bottom: 2px solid rgba(0, 0, 0, 0.03);
 }
 
-.notification h3{
+.notification h1{
     font-size: 2rem;
     color: rgb(56,56,56);
 }
@@ -365,7 +365,154 @@ footer p{
     color: #f2f2f2;
     text-align: center;
 }
+@media screen and (max-width:576px) {
+    .logo{
+     left: 40px;
+    
+    }
 
+    .logo a{
+         font-size: 1.5rem;
+    }
+
+    .searcharea{
+        width: 136px;
+        height: 40px;
+        right: 54px;
+    }
+
+    .section1 img{
+    height: 150px;
+}
+.sectionbutton {
+    width: 42%;
+    height: 35%;
+}
+.iconarea{
+    width: 50px;
+    height: 216px;
+    left: 11px;
+    top: 50%;
+}
+.sectionbutton h1,h2{
+    font-size: 1.5rem;
+}
+.sectionbutton h1{
+    letter-spacing: 18px;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.productsection{
+    width: 65%;
+}
+.productsection >h3{
+    font-size: 1.8rem;
+}
+.productbox{
+    height: 310px;
+}
+.about{
+    width: 80%;
+}
+.aboutbox{
+    width: 62%;
+}
+.notificationinput{
+    width: 350px;
+}
+.notification h1{
+    font-size: 1.5rem;
+    
+}
+
+
+}
+
+@media screen and (max-width:575px) {
+    .searcharea{
+        width: 120px;
+        height: 40px;
+        right: 42px;
+        margin-top: 10px;
+    }
+
+    .searcharea input{
+        width: 80px;
+    }
+.logo a{
+        font-size: 1.3rem;
+
+    }
+
+.logo{
+     left: 20px;
+    
+    }
+.iconarea{
+    width: 39px;
+    height: 210px;
+    left: 11px;
+    top: 50%;
+}
+
+.section1 img{
+    height: 100px;
+    margin-left: 54px;
+    margin-top: -77px;
+}
+.btn{
+    width: 106px;
+}
+.sectionbutton{
+    height: 0;
+    margin-left: -125px;
+}
+.productsection{
+    width: 55%;
+}
+.productbox img{
+    height: 130px;
+}
+.aboutbox{
+    width: 62%;
+}
+.aboutbox h1{
+    font-size: 1.5rem;
+}
+.aboutbox h4{
+    font-size: 1rem;
+}
+.aboutbox img{
+   
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+
+}
+.notification h1{
+    font-size: 0.8rem;
+    
+}
+.notificationinput{
+    width: 230px;
+}
+.NotificationButton{
+    width: 115px;
+    height: 35px;
+}
+footer p{
+    font-size: 1rem;
+}
+
+}
+
+
+@media screen and (max-width:992px) {
+    
+}
 
 
 
